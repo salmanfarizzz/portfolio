@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+:root {
+    --primary-color: #1eadff73;
+    --light-color: #9fb4e28a;
+    --dark-color: #00327c;
+    --background-light-color: #ffffff6b;
+    --background-light-color-focus: #ffffffcb;
+    --background-light-color-glass: #ffffffb7;
+}
+
+.bg-light-blue {
+    background-color: var(--primary-color);
+}
+
+.text-dark-blue {
+    color: var(--dark-color) !important;
+}
+
+body {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    background-color: var(--primary-color);
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-image: url('../assets/background.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url('../assets/cursor.svg'), auto;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background-color: var(--dark-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+.heading-avatar-container {
+    /* background-color: #00327c; */
+    width: 120px;
+    height: 120px;
+    /* margin: 20px; */
+    border-radius: 100%;
+    /* border: 4px solid #8ebbff; */
+    position: relative;
+}
+
+#pronounce-name {
+    background-color: var(--dark-color);
+    color: white;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: medium;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pronounce-name:hover {
+    opacity: 0.4;
+    transform: scale(1.5);
+    transition: .7s ease;
+    cursor: url('../assets/pointer.svg'), auto;
+}
+
+#listProject .card img {
+    margin: 10px auto !important;
+    border-radius: 6px;
+    padding: 0% !important;
+    border: 1px solid var(--light-color) !important;
+}
+
+.profile-header {
+    font-size: larger;
+}
+
+.img-project {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.img-project:hover {
+    cursor: url('../assets/zoom.svg'), auto;
+    opacity: .1;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    transition: .7s ease;
+}
+
+.img-avatar {
+    -webkit-animation: rotate-scale-down 0.65s linear both;
+    animation: rotate-scale-down 0.65s linear both;
+}
+
+.profile-name {
+    font-weight: 800 !important;
+    color: var(--dark-color);
+}
+
+h1,
+h2,
+h3 {
+    color: black !important;
+    font-weight: 600;
+}
+
+h4 {
+    color: black !important;
+    font-weight: 600;
+}
+
+ul>li>p>a {
+    text-decoration: none;
+}
+
+a {
+    color: var(--dark-color);
+    cursor: url('../assets/pointer.svg'), auto;
+}
+
+hr {
+    border-width: 2px 0px 0px 0px;
+    border-style: dashed;
+    border-color: var(--dark-color);
+    color: transparent;
+    background-color: transparent;
+    margin-bottom: 2%;
+}
+
+.container-glass {
+    background: rgba(255, 255, 255, 0.795);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card {
+    border-radius: 8px !important;
+    background-color: var(--background-light-color) !important;
+}
+
+.card img {
+    padding: 10px !important;
+    width: 100%;
+}
+
+.card-focus {
+    transition: all .2s ease-in-out;
+}
+
+.card-focus:hover {
+    transform: scale(1.02);
+}
+
+.project-card .card-focus:hover {
+    transform: scale(1.02);
+    background-color: var(--background-light-color-focus) !important;
+    cursor: url('../assets/pointer.svg'), auto;
+}
+
+.project-card p {
+    margin-bottom: 0rem !important;
+}
+
+#listProject .card-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+#listProject .project-overview-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    /* adjust as needed */
+}
+
+.button-brown {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: var(--primary-color);
+    border: none !important;
+    border-radius: 6px;
+    margin-right: 5px;
+    color: var(--dark-color);
+}
+
+.button-brown:hover {
+    background-color: var(--dark-color);
+    color: white;
+    cursor: url('../assets/pointer.svg'), auto;
+}
+
+.text-brown {
+    color: var(--dark-color);
+}
+
+span {
+    display: inline-block;
+}
+
+.loading {
+    color: var(--dark-color);
+}
+
+.bg-antique {
+    background-color: var(--primary-color);
+}
+
+.text-antique {
+    color: var(--dark-color);
+}
+
+
+/* .modal-content {
+    color: #583606;
+    border: 2px #583606 solid;
+    background-color: #F5E1C0;
+} */
+
+.modal-content {
+    background: var(--background-light-color-glass);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.089);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-close {
+    color: var(--dark-color);
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../assets/arrow-right.svg');
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../assets/arrow-left.svg');
+}
+
+.button-group-tech-stack>.active {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.button-group-tech-stack {
+    font-size: medium;
+}
+
+.btn-scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 0%;
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    font-size: 38px;
+    text-align: center;
+    line-height: 0%;
+    cursor: pointer;
+}
+
+.btn-scroll-top:hover {
+    cursor: url('../assets/pointer.svg'), auto;
+}
+
+.bg-primary {
+    background-color: var(--dark-color) !important;
+    color: white;
+}
+
+.bg-primary:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--dark-color);
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-3-26 9:3:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+
+/**
+ * ----------------------------------------
+ * animation rotate-scale-down
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes rotate-scale-down {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+        transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-scale-down {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(0.5) rotateZ(180deg);
+        transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        background-size: contain;
+    }
+    .container-glass {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 10px !important;
+        margin-bottom: 10px;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }
+}
