@@ -190,5 +190,23 @@ const data = [
         roles: "Android Developer",
         sneakPeak: `<p>Development Phase
     </p>`,
+    }, 
+    {
+        projectId: "bookstory-apps",
+        title: "Bookstory : Capture your Favorite Reading Moments",
+        year: "2024",
+        overview: `<p class="project-overview-text">Bookstory Apps exixts to provide the community of digital firs readers the tools worthy of this pastime that defines us. This project is related to Dicoding Course <b><a href="https://www.dicoding.com/academies/352">"Belajar Pengembangan Aplikasi Android Intermediate (BPAAI)"</a></b> as final submission</p>`,
+        tech: "Kotlin, Retrofit2 Library, Room Database (liked user), Data Store, Unit testing, custom view, animation",
+        techStack: "android",
+        thumbnail: "assets/bookstory.png",
+        image: [
+            "assets/bookstory_preview1.png",
+            "assets/bookstory_preview2.png"
+        ],
+        roles: "Android Developer",
+        sneakPeak: `<p>See Repository at
+        <a href = "https://github.com/salmanfarizzz/bookstory" > <i class = "bi bi-github"> </i>
+            Github</a>
+    </p>`,
     }
 ];
