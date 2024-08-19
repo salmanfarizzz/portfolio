@@ -1,19 +1,4 @@
 const data = [
-    // {
-    //     projectId: "coding-coffee",
-    //     title: "Coding Coffee : Cafe Menu Catalogue",
-    //     year: "2022",
-    //     overview: "...",
-    //     tech: "Kotlin, MVVM, Clean-Architecture, Dependency Injection",
-    //     techStack: "",
-    //     thumbnail:"",
-    //     image: [
-    //         "...",
-    //         "..."
-    //     ],
-    //     roles: "...",
-    //     sneakPeak: "...",
-    // },
     {
         projectId: "isibi",
         title: "I-SIBI : Sign Languange Detection Apps",
@@ -206,6 +191,27 @@ const data = [
         roles: "Android Developer",
         sneakPeak: `<p>See Repository at
         <a href = "https://github.com/salmanfarizzz/bookstory" > <i class = "bi bi-github"> </i>
+            Github</a>
+    </p>`,
+    },
+    {
+        projectId: "recycleme-apps",
+        title: "RecycleMe :  Early Waste Detection Apps (2024)",
+        year: "2024",
+        overview: `<p class="project-overview-text">RecycleMe Develop to address this critical issue by leveraging AI technology to promote efficient waste management practices. RecycleMe is an innovative mobile application designed to identify different types of waste and guide users to the nearest recycling centers. The application employs advanced machine learning models to accurately classify waste and provide real-time navigation to ensure proper disposal and recycling. This project is related to <b><a href="https://www.dicoding.com/programs/bangkit">"Bangkit Academy 2024 Batch 1"</a></b> as Capstone Project</p>`,
+        tech: "Kotlin, MVVM, Firebase, Google Maps API, Lottie Files, Retrofit, Google Console Project",
+        techStack: "android",
+        thumbnail: "assets/recycleme_preview1.png",
+        image: [
+            "assets/recycleme_preview2.png",
+            "assets/recycleme_preview3.png",
+            "assets/recycleme_preview4.png",
+            "assets/recycleme_preview5.png",
+            "assets/recycleme_preview6.png",
+        ],
+        roles: "Android Developer, UI/UX Designer",
+        sneakPeak: `<p>See Repository at
+        <a href = "https://github.com/salmanfarizzz/recycleme" > <i class = "bi bi-github"> </i>
             Github</a>
     </p>`,
     }
