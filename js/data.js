@@ -145,7 +145,9 @@ const data = [
             <li>Develop University Partners feature</li>
         </ul>
     </p>`,
-        sneakPeak: `<p>Development Phase </p>`,
+        sneakPeak: `<p>`<p>See website at
+        <a href = "https://alumni1.cic.ac.id/" > <i class="bi bi-link-45deg" > </i>
+            Website Portal Alumni UCIC</a> </p>`,
     },
     {
         projectId: "asclepius",
@@ -179,8 +181,8 @@ const data = [
 
         This project is related to Course "Proyek Teknik Informatika" as final submission
         </p>`,
-        tech: "Dart, Flutter, Laravel, Firebase Auth (login with Google)",
-        techStack: "android",
+        tech: "Laravel, Laravel Filament",
+        techStack: "website",
         thumbnail: "assets/sembako.png",
         image: [
             "assets/sembako_preview1.png",
@@ -211,9 +213,11 @@ const data = [
     },
     {
         projectId: "recycleme-apps",
-        title: "RecycleMe :  Early Waste Detection Apps (2024)",
+        title: "RecycleMe :  Early Waste Detection Apps",
         year: "2024",
-        overview: `<p class="project-overview-text">RecycleMe Develop to address this critical issue by leveraging AI technology to promote efficient waste management practices. RecycleMe is an innovative mobile application designed to identify different types of waste and guide users to the nearest recycling centers. The application employs advanced machine learning models to accurately classify waste and provide real-time navigation to ensure proper disposal and recycling. This project is related to <b><a href="https://www.dicoding.com/programs/bangkit">"Bangkit Academy 2024 Batch 1"</a></b> as Capstone Project</p>`,
+        overview: `<p class="project-overview-text">RecycleMe Develop to address this critical issue by leveraging AI technology to promote efficient waste management practices. RecycleMe is an innovative mobile application designed to identify different types of waste and guide users to the nearest recycling centers. The application employs advanced machine learning models to accurately classify waste and provide real-time navigation to ensure proper disposal and recycling. 
+        
+        This project is related to <b><a href="https://www.dicoding.com/programs/bangkit">"Bangkit Academy 2024 Batch 1"</a></b> as Capstone Project</p>`,
         tech: "Kotlin, MVVM, Firebase, Google Maps API, Lottie Files, Retrofit, Google Console Project",
         techStack: "android",
         thumbnail: "assets/recycleme_preview1.png",
