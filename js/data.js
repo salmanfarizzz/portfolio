@@ -1,4 +1,19 @@
 const data = [
+    // {
+    //     projectId: "coding-coffee",
+    //     title: "Coding Coffee : Cafe Menu Catalogue",
+    //     year: "2022",
+    //     overview: "...",
+    //     tech: "Kotlin, MVVM, Clean-Architecture, Dependency Injection",
+    //     techStack: "",
+    //     thumbnail:"",
+    //     image: [
+    //         "...",
+    //         "..."
+    //     ],
+    //     roles: "...",
+    //     sneakPeak: "...",
+    // },
     {
         projectId: "isibi",
         title: "I-SIBI : Sign Languange Detection Apps",
