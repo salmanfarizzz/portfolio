@@ -145,9 +145,10 @@ const data = [
             <li>Develop University Partners feature</li>
         </ul>
     </p>`,
-        sneakPeak: `<p>`<p>See website at
-        <a href = "https://alumni1.cic.ac.id/" > <i class="bi bi-link-45deg" > </i>
-            Website Portal Alumni UCIC</a> </p>`,
+        sneakPeak: `<p>See website at
+        < a href = "https://alumni1.cic.ac.id/" > < i class = "bi bi-link-45deg" > < /i>
+            Website Profile HIMATIF</a>
+    </p>`,
     },
     {
         projectId: "asclepius",
@@ -190,9 +191,8 @@ const data = [
             "assets/sembako_preview3.png"
         ],
         roles: "Android Developer",
-        sneakPeak: `<p>Development Phase
-    </p>`,
-    }, 
+        sneakPeak: `<p>Development Phase </p>`,
+    },
     {
         projectId: "bookstory-apps",
         title: "Bookstory : Capture your Favorite Reading Moments",
