@@ -146,8 +146,8 @@ const data = [
         </ul>
     </p>`,
         sneakPeak: `<p>See website at
-        < a href = "https://alumni1.cic.ac.id/" > < i class = "bi bi-link-45deg" > < /i>
-            Website Profile HIMATIF</a>
+        <a href = "https://alumni1.cic.ac.id/"> <i class = "bi bi-link-45deg" > < /i>
+            Website Portal Alumni UCIC</a>
     </p>`,
     },
     {
@@ -190,7 +190,7 @@ const data = [
             "assets/sembako_preview2.png",
             "assets/sembako_preview3.png"
         ],
-        roles: "Android Developer",
+        roles: "Website Developer",
         sneakPeak: `<p>Development Phase </p>`,
     },
     {
