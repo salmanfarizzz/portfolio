@@ -14,6 +14,34 @@ const data = [
     //     roles: "...",
     //     sneakPeak: "...",
     // },
+{
+        projectId: "pttapps",
+        title: "Absenify Face : Employee Attendance Apps",
+        year: "2024",
+        overview: `<p class="project-overview-text">Attendance App with Face Recognition is a mobile application designed to streamline 
+        the attendance process using facial recognition technology. The app enables employees to check in and check out securely by scanning 
+        their faces, eliminating the need for manual logins or traditional attendance methods. It also features an attendance recap system, 
+        allowing admins to monitor and manage attendance records efficiently.
+        </p>`,
+        tech: "Dart, Flutter, MySQL, Codeigniter, Google ML Kit Face Detection, L2 Normalization, BLoC",
+        techStack: "android",
+        thumbnail: "assets/ptt-app-1.png",
+        image: [
+            "assets/ptt-app-1.png",
+            "assets/ptt-app-2.png",
+            "assets/ptt-app-3.png",
+            "assets/ptt-app-4.png",
+            "assets/ptt-app-5.png",
+            "assets/ptt-app-6.png",
+            "assets/ptt-app-7.png",
+            "assets/ptt-app-8.png"
+        ],
+        roles: "Mobile Developer & UI/UX Design",
+        sneakPeak: `<p>See Preview/Demo at
+            <a href = "https://youtube.com/shorts/wkJiOkGA720?feature=share" > <i class = "bi bi-youtube" > </i>
+                Youtube</a>
+        </p>,`,
+    },
     {
         projectId: "isibi",
         title: "I-SIBI : Sign Languange Detection Apps",
